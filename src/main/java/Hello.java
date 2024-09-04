@@ -26,7 +26,7 @@ public class Hello extends HttpServlet {
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
-		response.getWriter().append("Welcome to J2EE Web Components Lab").append(request.getContextPath());
+		response.getWriter().append("Welcome to J2EE Web Components Lab number 1 by Vitaly Sukhinin").append(request.getContextPath());
 	}
 
 	/**
